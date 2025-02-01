@@ -1,0 +1,14 @@
+/* Resetting the body to remove margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1a1a1a; /* Dark background for the game */
+}
+
+/* Making sure the canvas takes up the entire screen */
+canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
